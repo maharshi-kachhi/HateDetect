@@ -67,7 +67,7 @@ class _HateSpeechScreenState extends State<HateSpeechScreen> {
 
   /// **🔹 Detect Hate Speech & Store Chat History**
   /// **🔹 Detect Hate Speech & Store Chat History**
-  static const String API_KEY = "AIzaSyDX1NAuegzLUc8SPHF_bTbRdxFV8YqMf3Y";
+  static const String API_KEY = "<YOUR_GEMINI_API_KEY>";
   static const String API_URL =
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp:generateContent?key=$API_KEY";
   void _detectHateSpeech() async {
