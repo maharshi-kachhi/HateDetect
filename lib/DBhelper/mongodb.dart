@@ -1,8 +1,8 @@
 import 'package:mongo_dart/mongo_dart.dart';
 
 const MONGO_CONNECTION_URI =
-    "mongodb+srv://maharshi:200405@cluster0.9rfuw.mongodb.net/Hate_speech_detection";
-const USER_COLLECTION = "login_credentials";
+    "YOUR_MONGO_CONNECTION_URL";
+const USER_COLLECTION = "YOUR_COLLECTION_NAME";
 
 class mongodb {
   static var db, userCollection, history;
@@ -21,8 +21,8 @@ class mongodb {
     await db.open();
 
     // Replace 'users' with your collection name
-    userCollection = db.collection('login_credentials');
-    history = db.collection('History');
+    userCollection = db.collection('YOUR_COLLECTION_NAME');
+    history = db.collection('YOUR_COLLECTION_NAME');
     //   // foodCollection = db.collection('FoodItems');
     //   // ordersCollection = db.collection('Orders');
     //   // ownerCollection = db.collection('Owner');
