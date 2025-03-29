@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
     }
   }
 
-  static const String API_KEY = "AIzaSyDX1NAuegzLUc8SPHF_bTbRdxFV8YqMf3Y";
+  static const String API_KEY = "YOUT_API_KEY";
   static const String API_URL =
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp:generateContent?key=$API_KEY";
 
